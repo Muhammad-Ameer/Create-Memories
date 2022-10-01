@@ -1,0 +1,41 @@
+Full Stack Mern Application
+
+Start of the Project
+
+1. Make a folder of Project Name.
+2. Make 2 more folders named client and server in root folder.
+3. In client folder, call npx create-react-app ./
+    a) import @material-ui/core/labs/icons axios jwt-decode material-ui-chip-input
+    moment react-file-base64 react-google-signin react-redux redux
+    react-router-dom redux-thunk.
+    b) apply npm install --legacy-peer-deps.
+    c) After this, go to server index.js file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. In server folder, call npm init -y.
+   then, install dependencies like, npm i body-parser cors express mongoose nodemon.
+
+    a) make index.js file.
+    b) in package.json file, add "type":"module" after "main":"index.js".
+    c) remove test script and add "start": "nodemon index.js".
+    d) import express, cors, bodyParser, mongoose from their libraries.
+    e) then utilize, index.js file.
+    
+
